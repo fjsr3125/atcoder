@@ -1,0 +1,8 @@
+N =int(input())
+P_list = list(map(int, input().split()))
+max_P = max(P_list)
+for i in range(1, N):
+    m = max(m, P_list[i])
+print(0, m+1-P_list[0])
+
+        
