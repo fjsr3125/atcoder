@@ -1,0 +1,11 @@
+n = input()
+s = input()
+
+v_first = s.index("|")
+S = s.index("*")
+v_finish = s.rindex("|")
+
+if v_first < S < v_finish:
+    print("in")
+else:
+    print("out")
