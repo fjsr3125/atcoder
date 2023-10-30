@@ -1,8 +1,0 @@
-N = int(input())
-S = input()
-A = set()
-for i in range(N):
-  A.add(S[i])
-  if len(A) == 3:
-    print(i + 1)
-    break
